@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 40px 100px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+        }
+        .menu{
+            display: flex;
+            gap: 30px;
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a.button:hover{
+            color: #40d4cf;
+        }
+        .sec1{
+            align-items: center;
+            padding: 106px 98px;
+        }
+        .con1{
+            display: flex;
+            align-items: center;
+            padding: 10px 0 10px 0;
+        }
+        .col1{
+            float: left;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 25px;
+            width: 36%;
+            
+        }
+        .col3{
+            float: left;
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 17px;
+            width: 36%;
+        }
+        input[type=text], textarea{
+            padding: 12px 20px;
+            padding-right: 280px;
+            width: 64%;
+        }
+        .col2, textarea{
+            width: 64%;
+            resize: none;
+        }
+        .newlist{
+            padding: 0;
+            margin: 0;
+            font-family:  'Nunito Sans', sans-serif;
+            font-size: 17px;
+        }
+        textarea{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="container">
+        <a href="./index.html"><img src="./images/02_Home.gif" height="26px" width="31px" alt=""></a>
+        <ul class="menu">
+            <li><a class="button" href="./index.html"><b>HOME</b></a></li>
+            <li><a class="button" href="./about.html"><b>ABOUT</b></a></li>
+            <li><a class="button" href="./contact.html"><b>CONTACT</b></a></li>
+        </ul>
+    </nav>
+    <section class="sec1">
+        <div class="con1">
+            <div class="col1"><strong>Contact info:</strong></div>
+            <div class="col2">
+                <input type="text" id="fname" name="firstname" placeholder="Your name">
+            </div>
+        </div>
+        <div class="con1">
+            <div class="col3">To give give beginning devide, cattle. Give moving <br>wont't, there the abundantly she'd she'd brought air <br>upon. Light hath subdue. Life days creature upon <br> first heaven gathering dry.</div>
+            <div class="col2">
+                <input type="text" placeholder="Your Title">
+            </div>
+        </div>
+        <div class="con1">
+            <div class="col3">
+                <ul class="newlist">
+                    <li><strong>Address:</strong> 10111 Santa Monica Boulevard, LA</li>
+                    <li><strong>Phone:</strong> +44 987 065 908</li>
+                    <li><strong>Email:</strong> info@Example.com</li>
+                    <li><strong>Fax:</strong> +44 987 065 909</li>
+                </ul>
+            </div>
+            <div class="col2">
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Your Comment"></textarea>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

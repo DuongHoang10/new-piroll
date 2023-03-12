@@ -99,6 +99,7 @@
             background-color: #10c9c3;
             padding: 100px 120px 100px 120px;
         }
+        
         .logo{
             align-items: center;
             display: flex;
@@ -123,9 +124,24 @@
             flex-wrap: wrap;
             margin: 0;
         }
-        .sec5 > a{
+        .newcon{
             width: 25%;
-
+            position: relative;
+        }
+        .overlay{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            height: 100%;
+            width: 100%;
+            transition: .5s;
+            background-image: url(./images/02_Home-hover.gif);
+        }
+        .newcon:hover .overlay{
+            opacity: 1;
         }
         .item{
             width: 100%;
@@ -337,18 +353,54 @@
         </div>
     </section>
     <section class="sec5">
-        <a href="./images/portfolio-1.jpg"><img class="item" src="./images/portfolio-1.jpg"  alt=""></a>
-        <a href="./images/portfolio-2.jpg"><img class="item" src="./images/portfolio-2.jpg"  alt=""></a>
-        <a href="./images/portfolio-3.jpg"><img class="item" src="./images/portfolio-3.jpg"  alt=""></a>
-        <a href="./images/portfolio-4.jpg"><img class="item" src="./images/portfolio-4.jpg"  alt=""></a>
-        <a href="./images/portfolio-5.jpg"><img class="item" src="./images/portfolio-5.jpg" alt=""></a>
-        <a href="./images/portfolio-6.jpg"><img class="item" src="./images/portfolio-6.jpg"  alt=""></a>
-        <a href="./images/portfolio-7.jpg"><img class="item" src="./images/portfolio-7.jpg"  alt=""></a>
-        <a href="./images/portfolio-8.jpg"><img class="item" src="./images/portfolio-8.jpg"  alt=""></a>
-        <a href="./images/portfolio-9.jpg"><img class="item" src="./images/portfolio-9.jpg"  alt=""></a>
-        <a href="./images/portfolio-10.jpg"><img class="item" src="./images/portfolio-10.jpg"  alt=""></a>
-        <a href="./images/portfolio-11.jpg"><img class="item" src="./images/portfolio-11.jpg"  alt=""></a>
-        <a href="./images/portfolio-12.jpg"><img class="item" src="./images/portfolio-12.jpg"  alt=""></a>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-1.jpg"  alt="">
+            <a href="./images/portfolio-1.jpg"><div class="overlay"></div></a>
+        </div>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-2.jpg"  alt="">
+            <a href="./images/portfolio-2.jpg"><div class="overlay"></div></a>
+        </div>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-3.jpg"  alt="">
+            <a href="./images/portfolio-3.jpg"><div class="overlay"></div></a>
+        </div>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-4.jpg"  alt="">
+            <a href="./images/portfolio-4.jpg"><div class="overlay"></div></a>
+        </div>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-5.jpg"  alt="">
+            <a href="./images/portfolio-5.jpg"><div class="overlay"></div></a>
+        </div>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-6.jpg"  alt="">
+            <a href="./images/portfolio-6.jpg"><div class="overlay"></div></a>
+        </div>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-7.jpg"  alt="">
+            <a href="./images/portfolio-7.jpg"><div class="overlay"></div></a>
+        </div>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-8.jpg"  alt="">
+            <a href="./images/portfolio-8.jpg"><div class="overlay"></div></a>
+        </div>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-9.jpg"  alt="">
+            <a href="./images/portfolio-9.jpg"><div class="overlay"></div></a>
+        </div>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-10.jpg"  alt="">
+            <a href="./images/portfolio-10.jpg"><div class="overlay"></div></a>
+        </div>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-11.jpg"  alt="">
+            <a href="./images/portfolio-11.jpg"><div class="overlay"></div></a>
+        </div>
+        <div class="newcon">
+            <img class="item" src="./images/portfolio-12.jpg"  alt="">
+            <a href="./images/portfolio-12.jpg"><div class="overlay"></div></a>
+        </div>
     </section>
     <section class="sec6">
         <div>
